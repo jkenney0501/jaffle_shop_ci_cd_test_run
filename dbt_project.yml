@@ -37,6 +37,14 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   test_cicd:
-    # Applies to all files under models/example/
+    
     stg:
+      +tags: 
+        - 'nonprod'
       +materialized: table
+    int:
+      +tags: 
+        - 'nonprod'
+    marts:
+      +tags: 
+        - 'prod'
