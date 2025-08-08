@@ -39,12 +39,9 @@ models:
   test_cicd:
     
     stg:
-      +tags: 
-        - 'nonprod'
-      +materialized: table
+     
     int:
-      +tags: 
-        - 'nonprod'
+      
     marts:
       +tags: 
         - 'prod'
