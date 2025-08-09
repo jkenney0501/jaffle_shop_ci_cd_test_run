@@ -41,6 +41,9 @@ models:
     stg:
      
     int:
+     
       
     marts:
+      +tags: 
+        - 'prod'
       
