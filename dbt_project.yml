@@ -39,11 +39,11 @@ models:
   test_cicd:
     
     stg: 
-      +schema: non_
+      +schema: _dev
       +tags: 
         - 'prod'
     int:
-      +schema: non_
+      +schema: _dev
       +tags: 
         - 'prod'
     marts:
