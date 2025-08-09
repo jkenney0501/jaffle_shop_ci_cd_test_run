@@ -43,5 +43,4 @@ models:
     int:
       
     marts:
-      +tags: 
-        - 'prod'
+      
