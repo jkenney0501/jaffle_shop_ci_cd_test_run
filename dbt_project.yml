@@ -41,11 +41,11 @@ models:
     stg:
       
       +tags: 
-        - 'nonprod'
+        - 'prod'
     int:
       
       +tags: 
-        - 'nonprod'
+        - 'prod'
     marts:
       +tags: 
         - 'prod'
