@@ -38,12 +38,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   test_cicd:
     
-    stg:
-      
+    stg: 
+      +schema: non_
       +tags: 
         - 'prod'
     int:
-      
+      +schema: non_
       +tags: 
         - 'prod'
     marts:
